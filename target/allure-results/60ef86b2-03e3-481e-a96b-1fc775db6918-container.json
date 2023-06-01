@@ -1,0 +1,1 @@
+{"uuid":"60ef86b2-03e3-481e-a96b-1fc775db6918","name":"AllTests Suite","children":["3e809bab-bf1f-471b-be03-046e89c18f62"],"befores":[],"afters":[{"name":"closeDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1685601875090,"stop":1685601876211}],"links":[],"start":1685601729352,"stop":1685601876211}

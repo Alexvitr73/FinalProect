@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests Suite]" verbose="0">
+  <test thread-count="5" name="AllTestCases(failed)" verbose="0">
+    <classes>
+      <class name="PageOneTest">
+        <methods>
+          <include name="cityChoice"/>
+          <include name="checkChangeLanguage"/>
+          <include name="checkHelpMenu"/>
+          <include name="checkSearch"/>
+          <include name="closeDriver"/>
+          <include name="checkCallMe"/>
+        </methods>
+      </class> <!-- PageOneTest -->
+      <class name="PageTwoTest">
+        <methods>
+          <include name="checkButtonFeedback"/>
+          <include name="checkChangeLanguage"/>
+          <include name="checkSubscribeNews"/>
+          <include name="checkEnterIncorrectData"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- PageTwoTest -->
+    </classes>
+  </test> <!-- AllTestCases(failed) -->
+</suite> <!-- Failed suite [AllTests Suite] -->
